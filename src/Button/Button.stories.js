@@ -6,31 +6,33 @@ export default {
   title: 'Example/Button',
   component: Button,
   argTypes: {
-    backgroundColor: { control: 'color' }
+    type: { control: 'type' },
+    name: { control: 'name' },
+    placeholder: { control: 'placeholder' }
   }
 }
 
 const Template = (args) => <Button {...args} />
 
-export const Primary = Template.bind({})
-Primary.args = {
-  primary: true,
-  label: 'Button'
+export const Featured = Template.bind({})
+Featured.args = {
+  featured: true,
+  value: 'Button'
 }
 
 export const Secondary = Template.bind({})
 Secondary.args = {
-  label: 'Button'
+  value: 'Button'
 }
 
 export const Large = Template.bind({})
 Large.args = {
   size: 'large',
-  label: 'Button'
+  value: 'Button'
 }
 
 export const Small = Template.bind({})
 Small.args = {
   size: 'small',
-  label: 'Button'
+  value: 'Button'
 }

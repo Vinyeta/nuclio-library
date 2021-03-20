@@ -1,30 +1,58 @@
-.storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3em;
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+.button {
+  font-family: Manrope, sans-serif;
+}
+
+.defaultButton {
+  font-style: normal;
+  font-weight: bold;
+  background: rgba(37, 138, 255, 0.16);
+  border-radius: 8px;
+  color: #258AFF;
+  border: none;
   cursor: pointer;
-  display: inline-block;
-  line-height: 1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+  
 }
-.storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+
+.defaultButton_featured {
+  font-style: normal;
+  font-weight: bold;
+  background: #258AFF;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-.storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-}
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
-}
-.storybook-button--medium {
+
+.button--small {
   font-size: 14px;
-  padding: 11px 20px;
+  line-height: 20px;
+  width: 100px;
+  min-height: 40px;
+  padding-left:7px;
+  padding-right:7px;
 }
-.storybook-button--large {
+.button--medium {
+  height: 63px;
+  width: 160px;
+  font-size: 14px;
+}
+.button--large {
+  line-height: 20px;
   font-size: 16px;
-  padding: 12px 24px;
+  height: 65px;
+  width: 193px;
+}
+
+.button:hover {
+  color: white;
+  background: black;
 }
