@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save nulcio-library
+npm install --save nuclio-library
 ```
 
 ## Usage

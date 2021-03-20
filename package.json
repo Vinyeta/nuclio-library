@@ -4,7 +4,7 @@
   "description": "Made with create-react-library",
   "author": "vinyeta",
   "license": "MIT",
-  "repository": "vinyeta/nulcio-library",
+  "repository": "vinyeta/nuclio-library",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
